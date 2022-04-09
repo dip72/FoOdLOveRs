@@ -1,0 +1,44 @@
+body{
+  background-image: url('https://images.wallpaperscraft.com/image/donuts_sweets_pastries_132916_1280x960.jpg');
+  background-size: cover;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  color: #C4074C;
+}
+div.sad{
+  padding-top: 10px;
+  color: #C4074C;
+  font-size: 25px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: black;
+  color: white;
+}
+
+input[type=submit]{
+  width: 250px;
+  background-color: brown;
+  color: white;
+  font-size: 21px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  padding: 10px;
+}

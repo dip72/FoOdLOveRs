@@ -1,0 +1,56 @@
+body{
+	/*background: url('https://images.wallpaperscraft.com/image/raven_bird_flying_smoke_black_white_92907_1400x1050.jpg');
+	*/
+    background: url('img/cake.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.l{
+		margin-left: 200px;
+	margin-top: 50px;
+  margin-bottom: 100px;
+	float: left;
+	width: 45%;
+}
+
+.r{
+		border: 25px;
+	border-color: black;
+	margin-top: 100px;
+	float: left;
+	width: 35%;
+}
+
+.sad{
+	padding-top: 10px;
+	color: #C4074C;
+	font-size: 25px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	
+}
+.h{
+	width: 10%;
+	
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #D4C8C7;
+  color: white;
+}
+.btn{
+  background: #D4C8C7;
+  color: #C4074C;
+  font-size: 1.25em;  
+  padding: 15px;
+  width: 150px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+}

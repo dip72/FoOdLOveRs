@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Raleway";
+	background :url('https://images.wallpaperscraft.com/image/waffles_coffee_dessert_ice_cream_banana_104076_1400x1050.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.card{
+	width: 600px;
+	margin: 150px auto 0;
+	background-color: #fff;
+	box-shadow: 0 3px 30px rgba(0,0,0,0.14);
+	color: #444;
+	text-align: center;
+	font-size: 16px;
+}
+
+.card .card-header .profile-img{
+	width: 196px;
+	height: 196px;
+	border-radius: 1000px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 6px solid #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.card .card-body{
+	padding: 90px 90px;
+}
+.card .card-body .full-name{
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 30px 0 0;
+}
+.card .card-body .username{
+	font-size: 20px;
+	font-weight: 500;
+	color: red;
+	margin: 10px 0 0;
+}
+
+.card.card-body .city{
+	font-weight: 500;
+	margin: 10px 0 0;
+}
+.card .card-body .desc{
+	line-height: 24px;
+}
+
+.card .social-icon{
+	font-size: 18px;
+	margin: 0 7px;
+}
+.card .social-icon.facebook{
+	color #3b5999;
+}
+
